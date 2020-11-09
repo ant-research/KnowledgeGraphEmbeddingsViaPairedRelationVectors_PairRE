@@ -1,6 +1,6 @@
 # PairRE 
 
-Code for paper [“**PairRE: Knowledge Graph Embeddings via Paired Relation Vectors**”](https://arxiv.org/abs/2003.01332).
+Code for paper [“**PairRE: Knowledge Graph Embeddings via Paired Relation Vectors**”].
 
 This implementation of PairRE for [**Open Graph Benchmak**](https://arxiv.org/abs/2005.00687) datasets (ogbl-wikikg and ogbl-biokg) is based on [**OGB**](https://github.com/snap-stanford/ogb). Thanks for their contributions.
 
