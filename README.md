@@ -58,7 +58,7 @@ cd wikikg && sh examples.sh
 The details of the optional hyperparameters can be found in examples.sh.
 
 
-# PairRE for FB15k, FB15k-237, DB100k
+# PairRE for FB15k, FB15k-237 and DB100k
 These experiments are based on this [**repository**](https://github.com/DeepGraphLearning/KnowledgeGraphEmbedding). We add the [**score function**](https://github.com/alipay/KnowledgeGraphEmbeddingsViaPairedRelationVectors_PairRE/blob/main/biokg/model.py#L232-L240) of PairRE to this repository directly.
 
 Commands to reproduce the reuslts are:
@@ -75,6 +75,6 @@ bash run.sh train PairRE FB15k 0 0 1024 256 1500 15.0 1.0 0.0001 150000 16 -dr
 
 DB100k: 
 ```bash
-bash run.sh train PairRE DB100K 0 0 1024 256 500 9.0 1.0 0.00005 150000 16 -dr'
+bash run.sh train PairRE DB100K 0 0 1024 256 500 9.0 1.0 0.00005 150000 16 -dr
 ```
 
